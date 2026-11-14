@@ -25,6 +25,7 @@ pasta assets possui tudo do site como imagens, fontes e icones usados no site.
 <img src="Verde.png" alt="robertinha" width="33%">
 <img src="vermelho.png" alt="robertinhoso" width="33%">
 Veja aqui como ficou e diga caso encontrar algum erro:(https://polalab.pages.dev)
+
 ## ✦ Objetivo
 relembrar alguns conceitos de html e css, aprender grid, flexbox e afins.
 
