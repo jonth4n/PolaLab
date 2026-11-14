@@ -21,7 +21,7 @@ pasta assets possui tudo do site como imagens, fontes e icones usados no site.
 
 ## ✦ Preview
 <img src="ciano.png" alt="robertinho" width="33%">
-<img src="verde.png" alt="robertinha" width="33%">
+<img src="Verde.png" alt="robertinha" width="33%">
 <img src="vermelho.png" alt="robertinhoso" width="33%">
 
 ## ✦ Objetivo
