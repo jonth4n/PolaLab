@@ -20,6 +20,7 @@ Criado com o objetivo de mostrar minhas capacidades e formas de criar e dar um e
 pasta assets possui tudo do site como imagens, fontes e icones usados no site.
 
 ## ✦ Preview
+Veja aqui como ficou e diga caso encontrar algum erro:(https://polalab.pages.dev)
 <img src="ciano.png" alt="robertinho" width="33%">
 <img src="Verde.png" alt="robertinha" width="33%">
 <img src="vermelho.png" alt="robertinhoso" width="33%">
