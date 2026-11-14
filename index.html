@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050707">
+  <meta name="description" content="PolaLab transforma ideias em código, presença digital e experiências web marcantes.">
+  <title>PolaLab — ideias que ganham vida</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-theme="programacao">
+  <div class="ambient" aria-hidden="true"></div>
+  <a class="skip-link" href="#experiencias">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <nav class="dock" aria-label="Experiências PolaLab" role="tablist">
+      <span class="dock-indicator" aria-hidden="true"></span>
+      <!-- Esquerda: verde — janela / Code Learn -->
+      <button class="dock-option" id="tab-programacao" type="button" role="tab"
+        aria-controls="page-programacao" aria-selected="true" data-page="programacao">
+        <img src="assets/icons/programacao.png" alt="">
+        <span class="sr-only">Code Learn</span>
+      </button>
+      <!-- Centro: ciano — terminal / desenvolvimento -->
+      <button class="dock-option dock-option--brand" id="tab-sites" type="button" role="tab"
+        aria-controls="page-sites" aria-selected="false" tabindex="-1" data-page="sites">
+        <span class="wordmark" aria-label="PolaLab">Pola<span>Lab</span></span>
+      </button>
+      <!-- Direita: vermelho — notebook / presença digital -->
+      <button class="dock-option" id="tab-presenca" type="button" role="tab"
+        aria-controls="page-presenca" aria-selected="false" tabindex="-1" data-page="presenca">
+        <img src="assets/icons/presenca.png" alt="">
+        <span class="sr-only">Presença digital</span>
+      </button>
+    </nav>
+    
+  </header>
+
+  <main class="experiences" id="experiencias">
+    <section class="page page--code is-active" id="page-programacao" role="tabpanel"
+      aria-labelledby="tab-programacao" data-page="programacao">
+      <div class="page-content code-content">
+        <div class="page-heading reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Código, ideia e movimento</p>
+          <h1>Sua ideia merece <span class="glow-text">EXISTIR.</span></h1>
+        </div>
+
+        <div class="learning-window reveal" aria-label="Prévia do painel de programação Code Learn">
+          <div class="window-bar">
+            <span class="window-title">Code Learn</span>
+            <div class="window-lights" aria-hidden="true"><i></i><i></i><i></i></div>
+          </div>
+          <div class="learning-layout">
+            <aside class="learning-sidebar" aria-label="Menu de exemplo">
+              <strong>Code <span>Learn</span></strong>
+              <span class="side-link">⌂ &nbsp; Dashboard</span>
+              <span class="side-link">◎ &nbsp; Trilhas</span>
+              <span class="side-link">‹› &nbsp; Desafios</span>
+              <span class="side-link side-link--bottom">◇ &nbsp; Comunidade</span>
+            </aside>
+            <div class="learning-main">
+              <h2>Bem vindo(a), sua <span>trilha diária</span> está pronta!</h2>
+              <div class="lesson-card">
+                <strong>Fundamentos da programação</strong>
+                <small>0 de 5 etapas concluídas</small>
+                <div class="progress-track"><span></span></div>
+                <div class="lesson-link" aria-hidden="true">Começar a aprender</div>
+              </div>
+              <div class="learning-tiles">
+                <div class="learning-tile"><strong>Desafios:</strong><span>Um novo projeto começa com uma linha.</span></div>
+                <div class="learning-tile"><strong>Apoie o projeto:</strong><span>Ideias boas crescem em comunidade.</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="code-cta reveal">
+          <h2>Não perca a sua chance!</h2>
+          <a class="button button--primary" href="https://github.com/jonth4n" target="_blank" rel="noreferrer">
+            Ver projetos <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="page page--presence" id="page-presenca" role="tabpanel"
+      aria-labelledby="tab-presenca" data-page="presenca" aria-hidden="true" inert hidden>
+      <div class="page-content presence-content">
+        <div class="presence-copy">
+          <p class="eyebrow reveal"><span class="status-dot"></span> Sua marca, no próximo nível</p>
+          <h1 class="reveal">Seu negócio merece <span class="glow-text">PRESENÇA</span></h1>
+          <ul class="benefit-card reveal">
+            <li><span aria-hidden="true">✓✓</span> Presença digital</li>
+            <li><span aria-hidden="true">✓✓</span> Design chamativo</li>
+            <li><span aria-hidden="true">✓✓</span> Personalidade</li>
+            <li><span aria-hidden="true">✓✓</span> Responsividade</li>
+          </ul>
+          <a class="button button--primary reveal" href="https://w.app/polalab" target="_blank" rel="noreferrer">
+            Quero minha presença! <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="laptop-scene reveal">
+          <img src="assets/images/polalab-notebook.png"
+            alt="Notebook exibindo o painel Code Learn, com trilhas, desafios e projetos">
+        </div>
+      </div>
+    </section>
+
+    <section class="page page--sites" id="page-sites" role="tabpanel"
+      aria-labelledby="tab-sites" data-page="sites" aria-hidden="true" inert hidden>
+      <div class="page-content sites-content">
+        <div class="terminal-window reveal" aria-label="Terminal demonstrando a criação de um site">
+          <div class="terminal-bar">
+            <span>POLALAB TERMINAL</span>
+            <div class="window-lights" aria-hidden="true"><i></i><i></i><i></i></div>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">polalab@studio:~$</span> polalab init --new-project</p>
+            <p class="terminal-output">[+] Initializing creative environment...<br>[+] Loading ideas...<br>[+] Building digital experience...<br><b>[SUCCESS] Project initialized.</b></p>
+            <p><span class="prompt">polalab@studio:~$</span> polalab launch</p>
+            <p>Your idea.<br>Our creation.</p>
+            <p class="terminal-cyan">Welcome to PolaLab.</p>
+            <p><span class="prompt">polalab@studio:~$</span> create --type website</p>
+            <p class="terminal-output">[+] Analyzing requirements...<br>[+] Designing interface...<br>[+] Developing experience...<br>[+] Optimizing performance...<br><b>[SUCCESS] Website ready.</b></p>
+            <p><span class="prompt">polalab@studio:~$</span> <span class="cursor" aria-hidden="true"></span></p>
+          </div>
+        </div>
+
+        <div class="sites-copy">
+          <p class="eyebrow reveal"><span class="status-dot"></span> Da primeira ideia ao lançamento</p>
+          <h1 class="reveal">Seu sonho merece uma <span class="glow-text">CHANCE</span></h1>
+          <ul class="benefit-card reveal">
+            <li><span aria-hidden="true">✓✓</span> Sites</li>
+            <li><span aria-hidden="true">✓✓</span> Landing pages</li>
+            <li><span aria-hidden="true">✓✓</span> Blogs</li>
+            <li><span aria-hidden="true">✓✓</span> E muito mais!</li>
+          </ul>
+          <a class="button button--primary reveal" href="https://w.app/polalab" target="_blank" rel="noreferrer">
+            Solicitar orçamento <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <noscript><p class="noscript-note">Ative o JavaScript para navegar pelas experiências PolaLab.</p></noscript>
+</body>
+</html>
